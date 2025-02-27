@@ -21,6 +21,12 @@ app.get("/painfuego", (req, res) => {
   );
 });
 
+app.get("/securefleshare", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://github.com/usainsportmmcllc"/>`
+  );
+});
+
 app.get("/flame", (req, res) => {
   res.send(
     `<meta http-equiv="refresh" content="0; URL=https://github.com/flame3301"/>`
